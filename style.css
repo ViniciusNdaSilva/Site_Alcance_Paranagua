@@ -1,15 +1,51 @@
 @charset "UTF-8";
 
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #313233;   
+    background-color: #313233;
 }
 
-header {
-    height: 2100px;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.logo { 
+    width: 120px;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover {
+    background-color: #4AD9CA;
 }
 
 .Pai {
@@ -20,6 +56,7 @@ header {
     margin-right: auto;
 }
 
+/* INICIO CARROCEL */
 /* INICIO CARROCEL */
 
 .content {
@@ -96,19 +133,83 @@ input {
 }
 
 /* FIM CARROCEL */
+/* FIM CARROCEL */
+
+
+.Palavratitulo {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 50px;
+}
 
 .palavra {
-    padding-top: 50px;
-    height: 2100px;
-    text-justify:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
-.redes-sociais {
-    height: 2100px;
-    position: static;
+
+
+
+
+/* REDES */
+/* REDES */
+
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
-.esboco {
-    height: 2100px;
-    position: static;
+.facebook {
+    padding-right: 20px;
 }
+
+.youtube {
+    padding-right: 20px;
+}
+
+
+/* REDES */
+/* REDES */
+
+
+/* BOTAO TOPO */
+/* BOTAO TOPO */
+
+#botao-topo {
+    text-decoration: none;
+    color: white;
+    background-color: #4AD9CA;;
+    padding: 8px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+    border-radius: 5px;
+}
+
+/* BOTAO TOPO */
+/* BOTAO TOPO */
+
+/* BOTAO TOPO */
+/* BOTAO TOPO */
+
+.referencia {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.bar-foot {
+    background-color: rgba(32, 29, 29, 0.737);
+}
+
+/* BOTAO TOPO */
+/* BOTAO TOPO */
