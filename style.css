@@ -7,6 +7,11 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 
+.navbar{
+    background-color: #4ad9cba9;
+    margin-bottom: 50px;    
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -136,6 +141,8 @@ input {
 /* FIM CARROCEL */
 /* FIM CARROCEL */
 
+/* Palavra da semana */
+/* Palavra da semana */
 
 .Palavratitulo {
     color: #fff;
@@ -151,6 +158,8 @@ input {
     padding: 50px;
 }
 
+/* Palavra da semana */
+/* Palavra da semana */
 
 /* REDES */
 /* REDES */
