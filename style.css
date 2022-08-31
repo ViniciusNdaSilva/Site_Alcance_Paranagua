@@ -148,14 +148,14 @@ input {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
 }
 
 .palavra {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
 }
 
 /* Palavra da semana */
