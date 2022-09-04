@@ -203,8 +203,63 @@ input {
 
 /* Nossos pastores */
 
+/* Redes sociais */
 
-/* BOTAO TOPO */
+.container-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.facebook, .instagran, .youtube {
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.botao-incone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    height: 60px;
+}
+
+.botao-de-acesso {
+    background-color: #4AD9CA;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.texto1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Redes sociais */
+
+
+
 /* BOTAO TOPO */
 
 #botao-topo {
