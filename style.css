@@ -144,18 +144,26 @@ input {
 /* Palavra da semana */
 /* Palavra da semana */
 
+
+.palavra-container {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
 .Palavratitulo {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    padding: 30px;
+    padding: 50px;
+
+    text-align: center;
 }
 
 .palavra {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 /* Palavra da semana */
