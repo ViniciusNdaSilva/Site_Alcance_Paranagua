@@ -54,16 +54,18 @@ nav ul li a:hover {
     background-color: #4AD9CA;
 }
 
-.Pai {
+/* CARROCEL */
+
+.container-carrosel {
     height: 521px;
     width: 936px;
     position: relative;
     margin-left: auto; 
     margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
 }
 
-/* INICIO CARROCEL */
-/* INICIO CARROCEL */
 
 .content {
     height: 520px;
@@ -138,16 +140,15 @@ input {
     margin-left: -80%;
 }
 
-/* FIM CARROCEL */
-/* FIM CARROCEL */
+/* CARROCEL */
 
-/* Palavra da semana */
-/* Palavra da semana */
 
+/* palavra da semana */
 
 .palavra-container {
     background-color: black;
     padding-bottom: 50px;
+    
 }
 
 .Palavratitulo {
@@ -155,7 +156,6 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     padding: 50px;
-
     text-align: center;
 }
 
@@ -166,31 +166,42 @@ input {
     padding: 10px;
 }
 
-/* Palavra da semana */
-/* Palavra da semana */
-
-/* REDES */
-/* REDES */
+/* palavra da semana */
 
 
-.redes {
+/* Nossos pastores */
+
+.nossos-pastores {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
-.facebook {
-    padding-right: 20px;
+.frases { 
+    margin-right: 100px;
 }
 
-.youtube {
-    padding-right: 20px;
+.frase1, .frase2, .frase3, .frase4{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
+.frase5 {
+    color: #4AD9CA;
+    font-family: 'Roboto', sans-serif;
+}
 
-/* REDES */
-/* REDES */
+.foto-pastores {
+    height: 300px;
+}
+
+.tamanho-icone {
+    height: 40px;
+}
+
+/* Nossos pastores */
 
 
 /* BOTAO TOPO */
