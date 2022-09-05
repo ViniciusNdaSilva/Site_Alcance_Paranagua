@@ -148,7 +148,6 @@ input {
 .palavra-container {
     background-color: black;
     padding-bottom: 50px;
-    
 }
 
 .Palavratitulo {
@@ -213,7 +212,7 @@ input {
 }
 
 .facebook, .instagran, .youtube {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.434);
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
@@ -259,7 +258,6 @@ input {
 /* Redes sociais */
 
 
-
 /* BOTAO TOPO */
 
 #botao-topo {
@@ -274,12 +272,6 @@ input {
     border-radius: 5px;
 }
 
-/* BOTAO TOPO */
-/* BOTAO TOPO */
-
-/* BOTAO TOPO */
-/* BOTAO TOPO */
-
 .referencia {
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -293,4 +285,18 @@ input {
 }
 
 /* BOTAO TOPO */
-/* BOTAO TOPO */
+
+/* CONTRIBUICOES */
+
+
+.container-contribuicoes {
+    margin: 150px 0 150px 0;
+}
+
+.contribuicoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTRIBUICOES */
