@@ -167,13 +167,18 @@
 
         <!-- Contato -->
 
-        <div>
-            <p>ENVIE SUA MENSAGEM</p>
-            <p>Entre em contato com a equipe através do nosso e-mail <a href="vinicius.nascimentodasilva@outlook.com">vinicius.nascimentodasilva@outlook.com"</a> > ou nos mande uma mensagem no whats no numero: 41 987015106</p>
+        <div class="formulario">
+            <h2>Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </div>
-
-        
-
 
         <!-- Contato -->
 
