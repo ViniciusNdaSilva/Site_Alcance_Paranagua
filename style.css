@@ -204,11 +204,19 @@ input {
 
 /* Redes sociais */
 
+.section-redes {
+    margin: 250px 0 250px 0;
+}
+
+.section-redes2 {
+    margin: 150px 0 150px 0;
+}
+
+
 .container-redes {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .facebook, .instagran, .youtube {
@@ -300,6 +308,22 @@ input {
 }
 
 /* CONTRIBUICOES */
+
+
+/* MAPA */
+
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo4 {
+    margin: 150px 0 150px 0;
+}
+
+/* MAPA */
+
 
 /* formulario */
 
