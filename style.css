@@ -327,6 +327,19 @@ input {
 
 /* formulario */
 
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
+
+.formulario {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+
 /* background: #101026; */
 
 
