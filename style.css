@@ -9,7 +9,6 @@ html {
 
 .navbar{
     background-color: #4ad9cba9;
-    margin-bottom: 50px;    
 }
 
 body {
@@ -340,11 +339,16 @@ input {
     justify-content: center;
     align-items: center;
     height: 500px;
-    width: 500px;
+    width: 600px;
     background-color: #101026;
     padding: 0;
+    border-radius: 20px;
 }
 
+h2, .formulario {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
 
 /* background: #101026; */
 
