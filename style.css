@@ -330,13 +330,19 @@ input {
 .container-form {
     display: flex;
     justify-content: center;
+    margin: 60px;
 }
 
 
 .formulario {
-    height: 300px;
-    width: 300px;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: #101026;
+    padding: 0;
 }
 
 
